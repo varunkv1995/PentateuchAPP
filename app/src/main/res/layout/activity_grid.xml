@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bc0c0c"
+    tools:context="com.example.varu.ptactice_attribuits.Grid">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f1f1"
+        android:id="@+id/toolbar3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:src="@mipmap/ic_grid"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GridView"
+            android:textSize="35dp"
+            android:textColor="#000"
+            android:fontFamily="cursive"></TextView>
+
+    </android.support.v7.widget.Toolbar>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:columnWidth="100dp"
+        android:id="@+id/grid"
+        android:gravity="center"
+
+        android:layout_below="@+id/toolbar3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </GridView>
+
+
+</RelativeLayout>

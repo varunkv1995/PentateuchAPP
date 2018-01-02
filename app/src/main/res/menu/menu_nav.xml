@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:id="@+id/menu_home"
+    android:title="Home"
+    android:icon="@drawable/ic_action_home1"
+    />
+    <item android:id="@+id/menu_intro"
+        android:icon="@drawable/ic_action_n1"
+        android:title="intro"/>
+    <item android:id="@+id/menu_exit"
+        android:icon="@drawable/ic_action_out"
+        android:title="Exit"/>
+    <item android:id="@+id/cards"
+        android:icon="@drawable/ic_action_gallery"
+        android:title="Cards"/>
+<item android:id="@+id/grid"
+    android:icon="@mipmap/ic_grid"
+    android:title="Grid"
+    />
+
+</menu>

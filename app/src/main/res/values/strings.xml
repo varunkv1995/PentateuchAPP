@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Contact information</string>
+    <string-array name="Qualification">
+        <item>B.E</item>
+        <item>B.tech</item>
+        <item>B.com</item>
+        <item>MBA</item>
+    </string-array>
+    <string name="opened">Open</string>
+    <string name="closed">close</string>
+</resources>
