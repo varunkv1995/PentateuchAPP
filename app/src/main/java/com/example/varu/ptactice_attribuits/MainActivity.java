@@ -160,9 +160,7 @@ return;
                     Toast.makeText(getApplicationContext(),"please select gender",Toast.LENGTH_LONG).show();
                     return;
                 }
-
-
-
+                
                      else {
                         Intent intent = new Intent(MainActivity.this, secondpage.class);
                         intent.putExtra("username",name.getText().toString());
